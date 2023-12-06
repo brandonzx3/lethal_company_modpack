@@ -10,10 +10,39 @@
 [Message:   BepInEx] Preloader finished
 [Message:   BepInEx] Chainloader ready
 [Message:   BepInEx] Chainloader started
-[Info   :   BepInEx] 2 plugins to load
-[Info   :   BepInEx] Loading [BiggerLobby 2.2.6]
+[Info   :   BepInEx] 10 plugins to load
+[Info   :   BepInEx] Loading [BiggerLobby 2.3.1]
 [Info   :BiggerLobby] BiggerLobby loaded
-[Info   :   BepInEx] Loading [LC_API 1.0.0]
+[Info   :   BepInEx] Loading [Configurable Company 1.1.0]
+[Info   :   Console] Initializating Configurable Company
+[Info   :   Console] Setting up Configurable Company
+[Info   :   Console] Enabling Configurable Company
+[Info   :Configurable Company] Configurable company plugin loaded!
+[Info   :   BepInEx] Loading [Configurable Company Variables 1.0.0]
+[Info   :   Console] Registered config amrv_enemy_spawn_multiplier
+[Info   :   Console] Registered config amrv_enemy_power_multiplier
+[Info   :   Console] Registered config amrv_enemy_cap_multiplier
+[Info   :   Console] Registered config amrv_starting_money
+[Info   :   Console] Registered config amrv_deadline_days
+[Info   :   Console] Registered config amrv_hide_weather
+[Info   :   Console] Registered config amrv_scrap_amount_multiplier
+[Info   :   Console] Registered config amrv_scrap_price_multiplier
+[Info   :   Console] Registered config amrv_death_penalty_percent
+[Info   :Configurable Company Variables] Loading configurable variables
+[Error  :Configurable Company Variables] StartOfRound::Awake
+[Error  :Configurable Company Variables] TimeOfDay::Awake
+[Error  :Configurable Company Variables] TimeOfDay::Start
+[Error  :Configurable Company Variables] StartOfRound::StartGame
+[Error  :Configurable Company Variables] StartOfRound::SetMapScreenInfoToCurrentLevel
+[Error  :Configurable Company Variables] RoundManager::SpawnDaytimeEnemiesOutside
+[Error  :Configurable Company Variables] RoundManager::PlotOutEnemiesForNextHour
+[Error  :Configurable Company Variables] RoundManager::SpawnEnemiesOutside
+[Error  :Configurable Company Variables] Terminal::TextPostProcess
+[Error  :Configurable Company Variables] EnemyType::.ctor
+[Error  :Configurable Company Variables] RoundManager::Awake
+[Error  :Configurable Company Variables] HUDManager::ApplyPenalty
+[Info   :Configurable Company Variables] Plugin Lethal_Company_Variables is loaded!
+[Info   :   BepInEx] Loading [LC_API 2.1.1]
 [Warning:    LC_API] 
 .____    _________           _____  __________ .___  
 |    |   \_   ___ \         /  _  \ \______   \|   | 
@@ -23,21 +52,1146 @@
         \/       \//_____/        \/                 
                                                      
 [Info   :    LC_API] LC_API Starting up..
+[Info   :   BepInEx] Loading [MoreEmotes-Sligili 0.1.0]
+[Info   :MoreEmotes-Sligili] MoreEmotes loaded
+[Info   :   BepInEx] Loading [Helmet_Cameras 2.1.3]
+[Info   :Helmet_Cameras] Plugin Helmet_Cameras is loaded with version 2.1.3!
+[Info   :Helmet_Cameras] --------Helmet camera patch done.---------
+[Info   :   BepInEx] Loading [SpectateEnemy 1.3.0]
+[Info   :SpectateEnemy] SpectateEnemy loaded!
+[Info   :   BepInEx] Loading [Late Company 1.0.4]
+[Info   :Late Company] Late Company loaded!
+[Info   :   BepInEx] Loading [Better Lethality 1.0.0.0]
+[Info   :Better Lethality] Lethality has been bettered
+[Info   :   BepInEx] Loading [More Suits 1.3.2]
+[Info   :More Suits] Plugin More Suits is loaded!
 [Message:   BepInEx] Chainloader startup complete
 [Message:    LC_API] A plugin has set your game to only allow you to play with other people who have mods!
 [Message:    LC_API] BundleAPI will now load all asset bundles...
 [Message:    LC_API] BundleAPI got no assets to load from legacy directory
-[Message:    LC_API] BundleAPI got no assets to load from plugins folder
+[Message:    LC_API] BundleAPI got 2 AssetBundles to load!
+[Error  :    LC_API] Failed to load an assetbundle! Path: E:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\MoreEmotes\animationsbundle
+[Error  :    LC_API] Failed to load an assetbundle! Path: E:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\MoreEmotes\animatorbundle
+[Message:    LC_API] BundleAPI finished loading all assets.
 [Message:    LC_API] BundleAPI finished loading all assets.
 [Info   :    LC_API] LC_API Started!
+[Info   :Configurable Company Variables] -------------> EnemyType::Constructor <-------------
+[Info   :Configurable Company Variables] -------------> EnemyType::Constructor <-------------
+[Info   :Configurable Company Variables] -------------> EnemyType::Constructor <-------------
+[Info   :Configurable Company Variables] -------------> EnemyType::Constructor <-------------
+[Info   :Configurable Company Variables] -------------> EnemyType::Constructor <-------------
+[Info   :Configurable Company Variables] -------------> EnemyType::Constructor <-------------
+[Info   :Configurable Company Variables] -------------> EnemyType::Constructor <-------------
+[Info   :Configurable Company Variables] -------------> EnemyType::Constructor <-------------
+[Info   :Configurable Company Variables] -------------> EnemyType::Constructor <-------------
+[Info   :Configurable Company Variables] -------------> EnemyType::Constructor <-------------
+[Info   :Configurable Company Variables] -------------> EnemyType::Constructor <-------------
+[Info   :Configurable Company Variables] -------------> EnemyType::Constructor <-------------
+[Info   :Configurable Company Variables] -------------> EnemyType::Constructor <-------------
+[Info   :Configurable Company Variables] -------------> EnemyType::Constructor <-------------
+[Info   :Configurable Company Variables] -------------> EnemyType::Constructor <-------------
+[Info   :Configurable Company Variables] -------------> EnemyType::Constructor <-------------
+[Info   :Configurable Company Variables] -------------> EnemyType::Constructor <-------------
+[Info   :Configurable Company Variables] -------------> EnemyType::Constructor <-------------
+[Info   :Configurable Company Variables] -------------> EnemyType::Constructor <-------------
+[Info   :   Console] Loading from 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile3Config'
+[Info   :   Console] Loading from disk
+[Info   :   Console] Creating menu
+[Info   :   Console] [GetFromConfig] amrv_hide_weather got False from config
+[Info   :   Console] Loading from 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile3Config'
+[Info   :   Console] Loading from disk
+[Info   :   Console] [GetFromConfig] amrv_hide_weather got False from config
+[Info   :   Console] [GetFromConfig] amrv_hide_weather got False from config
+[Info   :   Console] [SetToConfig] amrv_hide_weather set False to config
+[Info   :   Console] Saving to 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile3Config'
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_spawn_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_power_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_cap_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_starting_money : 60
+[Info   :   Console] [SaveCategory] Writing amrv_deadline_days : 4
+[Info   :   Console] [SaveCategory] Writing amrv_hide_weather : False
+[Info   :   Console] [SaveCategory] Writing amrv_scrap_amount_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_scrap_price_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_death_penalty_percent : 20
+[Info   :   Console] Saving to disk
+[Info   :   Console] Loading from 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile2Config'
+[Info   :   Console] Loading from disk
+[Info   :   Console] [GetFromConfig] amrv_hide_weather got False from config
+[Info   :   Console] [SetToConfig] amrv_hide_weather set False to config
+[Info   :   Console] Saving to 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile2Config'
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_spawn_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_power_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_cap_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_starting_money : 60
+[Info   :   Console] [SaveCategory] Writing amrv_deadline_days : 4
+[Info   :   Console] [SaveCategory] Writing amrv_hide_weather : False
+[Info   :   Console] [SaveCategory] Writing amrv_scrap_amount_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_scrap_price_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_death_penalty_percent : 20
+[Info   :   Console] Saving to disk
+[Info   :   Console] Loading from 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile1Config'
+[Info   :   Console] Loading from disk
+[Info   :   Console] [GetFromConfig] amrv_hide_weather got False from config
+[Info   :   Console] [SetToConfig] amrv_hide_weather set False to config
+[Info   :   Console] Saving to 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile1Config'
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_spawn_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_power_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_cap_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_starting_money : 60
+[Info   :   Console] [SaveCategory] Writing amrv_deadline_days : 4
+[Info   :   Console] [SaveCategory] Writing amrv_hide_weather : False
+[Info   :   Console] [SaveCategory] Writing amrv_scrap_amount_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_scrap_price_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_death_penalty_percent : 20
+[Info   :   Console] Saving to disk
+[Info   :   Console] Loading from 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile2Config'
+[Info   :   Console] Loading from disk
+[Info   :   Console] [GetFromConfig] amrv_hide_weather got False from config
+[Info   :   Console] [SetToConfig] amrv_hide_weather set False to config
+[Info   :   Console] Saving to 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile2Config'
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_spawn_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_power_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_cap_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_starting_money : 60
+[Info   :   Console] [SaveCategory] Writing amrv_deadline_days : 4
+[Info   :   Console] [SaveCategory] Writing amrv_hide_weather : False
+[Info   :   Console] [SaveCategory] Writing amrv_scrap_amount_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_scrap_price_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_death_penalty_percent : 20
+[Info   :   Console] Saving to disk
+[Info   :   Console] Loading from 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile3Config'
+[Info   :   Console] Loading from disk
+[Info   :   Console] [GetFromConfig] amrv_hide_weather got False from config
+[Info   :   Console] [SetToConfig] amrv_hide_weather set False to config
+[Info   :   Console] Saving to 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile3Config'
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_spawn_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_power_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_cap_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_starting_money : 60
+[Info   :   Console] [SaveCategory] Writing amrv_deadline_days : 4
+[Info   :   Console] [SaveCategory] Writing amrv_hide_weather : False
+[Info   :   Console] [SaveCategory] Writing amrv_scrap_amount_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_scrap_price_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_death_penalty_percent : 20
+[Info   :   Console] Saving to disk
+[Info   :   Console] Loading from 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile2Config'
+[Info   :   Console] Loading from disk
+[Info   :   Console] [GetFromConfig] amrv_hide_weather got False from config
+[Info   :   Console] [SetToConfig] amrv_hide_weather set False to config
+[Info   :   Console] Saving to 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile2Config'
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_spawn_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_power_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_cap_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_starting_money : 60
+[Info   :   Console] [SaveCategory] Writing amrv_deadline_days : 4
+[Info   :   Console] [SaveCategory] Writing amrv_hide_weather : False
+[Info   :   Console] [SaveCategory] Writing amrv_scrap_amount_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_scrap_price_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_death_penalty_percent : 20
+[Info   :   Console] Saving to disk
+[Info   :   Console] Loading from 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile1Config'
+[Info   :   Console] Loading from disk
+[Info   :   Console] [GetFromConfig] amrv_hide_weather got False from config
+[Info   :   Console] [SetToConfig] amrv_hide_weather set False to config
+[Info   :   Console] Saving to 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile1Config'
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_spawn_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_power_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_cap_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_starting_money : 60
+[Info   :   Console] [SaveCategory] Writing amrv_deadline_days : 4
+[Info   :   Console] [SaveCategory] Writing amrv_hide_weather : False
+[Info   :   Console] [SaveCategory] Writing amrv_scrap_amount_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_scrap_price_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_death_penalty_percent : 20
+[Info   :   Console] Saving to disk
+[Info   :   Console] Loading from 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile2Config'
+[Info   :   Console] Loading from disk
+[Info   :   Console] [GetFromConfig] amrv_hide_weather got False from config
+[Info   :   Console] [SetToConfig] amrv_hide_weather set False to config
+[Info   :   Console] Saving to 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile2Config'
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_spawn_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_power_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_cap_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_starting_money : 60
+[Info   :   Console] [SaveCategory] Writing amrv_deadline_days : 4
+[Info   :   Console] [SaveCategory] Writing amrv_hide_weather : False
+[Info   :   Console] [SaveCategory] Writing amrv_scrap_amount_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_scrap_price_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_death_penalty_percent : 20
+[Info   :   Console] Saving to disk
 [Message:    LC_API] server pre-setup success
 [Warning:    LC_API] Asking all other players for their mod list..
-[Warning:    LC_API] SSGOFYOURSELF responded with these mods:
-BiggerLobby
-LC_API
-[Warning:    LC_API] SSGOFYOURSELF responded with these mods:
-BiggerLobby
-LC_API
-[Warning:    LC_API] magicmo responded with these mods:
-BiggerLobby
-LC_API
+[Info   :Configurable Company Variables] ------> Scrap value changed 0.4 -> 0.4
+[Info   :Configurable Company Variables] ------> Scrap amount changed 1 -> 1
+[Info   :Configurable Company Variables] -------------> RoundManager::Awake [Client] <-------------
+[Info   :Configurable Company Variables] ----> 41 Experimentation: changed enemy power 4 -> 4
+[Info   :Configurable Company Variables] ----> 41 Experimentation: changed outside enemy power 8 -> 8
+[Info   :Configurable Company Variables] ----> 41 Experimentation: changed daytime enemy power 5 -> 5
+[Info   :Configurable Company Variables] ----> 220 Assurance: changed enemy power 6 -> 6
+[Info   :Configurable Company Variables] ----> 220 Assurance: changed outside enemy power 8 -> 8
+[Info   :Configurable Company Variables] ----> 220 Assurance: changed daytime enemy power 7 -> 7
+[Info   :Configurable Company Variables] ----> 56 Vow: changed enemy power 7 -> 7
+[Info   :Configurable Company Variables] ----> 56 Vow: changed outside enemy power 6 -> 6
+[Info   :Configurable Company Variables] ----> 56 Vow: changed daytime enemy power 17 -> 17
+[Info   :Configurable Company Variables] ----> 71 Gordion: changed enemy power 0 -> 0
+[Info   :Configurable Company Variables] ----> 71 Gordion: changed outside enemy power 0 -> 0
+[Info   :Configurable Company Variables] ----> 71 Gordion: changed daytime enemy power 20 -> 20
+[Info   :Configurable Company Variables] ----> 61 March: changed enemy power 14 -> 14
+[Info   :Configurable Company Variables] ----> 61 March: changed outside enemy power 12 -> 12
+[Info   :Configurable Company Variables] ----> 61 March: changed daytime enemy power 20 -> 20
+[Info   :Configurable Company Variables] ----> 85 Rend: changed enemy power 10 -> 10
+[Info   :Configurable Company Variables] ----> 85 Rend: changed outside enemy power 6 -> 6
+[Info   :Configurable Company Variables] ----> 85 Rend: changed daytime enemy power 20 -> 20
+[Info   :Configurable Company Variables] ----> 7 Dine: changed enemy power 15 -> 15
+[Info   :Configurable Company Variables] ----> 7 Dine: changed outside enemy power 6 -> 6
+[Info   :Configurable Company Variables] ----> 7 Dine: changed daytime enemy power 20 -> 20
+[Info   :Configurable Company Variables] ----> 21 Offense: changed enemy power 12 -> 12
+[Info   :Configurable Company Variables] ----> 21 Offense: changed outside enemy power 8 -> 8
+[Info   :Configurable Company Variables] ----> 21 Offense: changed daytime enemy power 20 -> 20
+[Info   :Configurable Company Variables] ----> 8 Titan: changed enemy power 18 -> 18
+[Info   :Configurable Company Variables] ----> 8 Titan: changed outside enemy power 7 -> 7
+[Info   :Configurable Company Variables] ----> 8 Titan: changed daytime enemy power 20 -> 20
+[Info   :Configurable Company Variables] Modifying 19 enemy types
+[Info   :Configurable Company Variables] ----> Baboon hawk: changed cap 15 -> 15
+[Info   :Configurable Company Variables] ----> Blob: changed cap 2 -> 2
+[Info   :Configurable Company Variables] ----> Centipede: changed cap 4 -> 4
+[Info   :Configurable Company Variables] ----> Crawler: changed cap 4 -> 4
+[Info   :Configurable Company Variables] ----> Docile Locust Bees: changed cap 5 -> 5
+[Info   :Configurable Company Variables] ----> Manticoil: changed cap 16 -> 16
+[Info   :Configurable Company Variables] ----> Red Locust Bees: changed cap 6 -> 6
+[Info   :Configurable Company Variables] ----> Girl: changed cap 1 -> 1
+[Info   :Configurable Company Variables] ----> Flowerman: changed cap 1 -> 1
+[Info   :Configurable Company Variables] ----> ForestGiant: changed cap 3 -> 3
+[Info   :Configurable Company Variables] ----> Hoarding bug: changed cap 8 -> 8
+[Info   :Configurable Company Variables] ----> Jester: changed cap 1 -> 1
+[Info   :Configurable Company Variables] ----> Lasso: changed cap 2 -> 2
+[Info   :Configurable Company Variables] ----> MouthDog: changed cap 8 -> 8
+[Info   :Configurable Company Variables] ----> Puffer: changed cap 2 -> 2
+[Info   :Configurable Company Variables] ----> Red pill: changed cap 0 -> 0
+[Info   :Configurable Company Variables] ----> Bunker Spider: changed cap 1 -> 1
+[Info   :Configurable Company Variables] ----> Earth Leviathan: changed cap 3 -> 3
+[Info   :Configurable Company Variables] ----> Spring: changed cap 5 -> 5
+[Info   :Configurable Company Variables] -------------> StartOfRound::Awake [Client] <-------------
+[Info   :Configurable Company Variables] -------------> TimeOfDay::Awake [Client] <-------------
+[Info   :Configurable Company Variables] -------------> StartOfRound::SetMapScreenInfoToCurrentLevel [Server] <-------------
+[Info   :Configurable Company Variables] -------------> StartOfRound::SetMapScreenInfoToCurrentLevel [Server] <-------------
+[Info   :Configurable Company Variables] -------------> TimeOfDay::Start [Server] <-------------
+[Info   :Configurable Company Variables] -------------> Terminal::TextPostProcess [Server] <-------------
+[Info   :   Console] Loading from 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile2Config'
+[Info   :   Console] Loading from disk
+[Info   :   Console] Creating menu
+[Info   :   Console] [GetFromConfig] amrv_hide_weather got False from config
+[Info   :   Console] [SetToConfig] amrv_hide_weather set False to config
+[Info   :   Console] Saving to 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile2Config'
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_spawn_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_power_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_cap_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_starting_money : 60
+[Info   :   Console] [SaveCategory] Writing amrv_deadline_days : 4
+[Info   :   Console] [SaveCategory] Writing amrv_hide_weather : False
+[Info   :   Console] [SaveCategory] Writing amrv_scrap_amount_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_scrap_price_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_death_penalty_percent : 20
+[Info   :   Console] Saving to disk
+[Info   :   Console] Loading from 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile3Config'
+[Info   :   Console] Loading from disk
+[Info   :   Console] [GetFromConfig] amrv_hide_weather got False from config
+[Info   :   Console] [SetToConfig] amrv_hide_weather set False to config
+[Info   :   Console] Saving to 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile3Config'
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_spawn_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_power_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_cap_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_starting_money : 60
+[Info   :   Console] [SaveCategory] Writing amrv_deadline_days : 4
+[Info   :   Console] [SaveCategory] Writing amrv_hide_weather : False
+[Info   :   Console] [SaveCategory] Writing amrv_scrap_amount_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_scrap_price_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_death_penalty_percent : 20
+[Info   :   Console] Saving to disk
+[Message:    LC_API] server pre-setup success
+[Info   :Configurable Company Variables] ------> Scrap value changed 0.4 -> 0.4
+[Info   :Configurable Company Variables] ------> Scrap amount changed 1 -> 1
+[Info   :Configurable Company Variables] -------------> RoundManager::Awake [Client] <-------------
+[Info   :Configurable Company Variables] ----> 41 Experimentation: changed enemy power 4 -> 4
+[Info   :Configurable Company Variables] ----> 41 Experimentation: changed outside enemy power 8 -> 8
+[Info   :Configurable Company Variables] ----> 41 Experimentation: changed daytime enemy power 5 -> 5
+[Info   :Configurable Company Variables] ----> 220 Assurance: changed enemy power 6 -> 6
+[Info   :Configurable Company Variables] ----> 220 Assurance: changed outside enemy power 8 -> 8
+[Info   :Configurable Company Variables] ----> 220 Assurance: changed daytime enemy power 7 -> 7
+[Info   :Configurable Company Variables] ----> 56 Vow: changed enemy power 7 -> 7
+[Info   :Configurable Company Variables] ----> 56 Vow: changed outside enemy power 6 -> 6
+[Info   :Configurable Company Variables] ----> 56 Vow: changed daytime enemy power 17 -> 17
+[Info   :Configurable Company Variables] ----> 71 Gordion: changed enemy power 0 -> 0
+[Info   :Configurable Company Variables] ----> 71 Gordion: changed outside enemy power 0 -> 0
+[Info   :Configurable Company Variables] ----> 71 Gordion: changed daytime enemy power 20 -> 20
+[Info   :Configurable Company Variables] ----> 61 March: changed enemy power 14 -> 14
+[Info   :Configurable Company Variables] ----> 61 March: changed outside enemy power 12 -> 12
+[Info   :Configurable Company Variables] ----> 61 March: changed daytime enemy power 20 -> 20
+[Info   :Configurable Company Variables] ----> 85 Rend: changed enemy power 10 -> 10
+[Info   :Configurable Company Variables] ----> 85 Rend: changed outside enemy power 6 -> 6
+[Info   :Configurable Company Variables] ----> 85 Rend: changed daytime enemy power 20 -> 20
+[Info   :Configurable Company Variables] ----> 7 Dine: changed enemy power 15 -> 15
+[Info   :Configurable Company Variables] ----> 7 Dine: changed outside enemy power 6 -> 6
+[Info   :Configurable Company Variables] ----> 7 Dine: changed daytime enemy power 20 -> 20
+[Info   :Configurable Company Variables] ----> 21 Offense: changed enemy power 12 -> 12
+[Info   :Configurable Company Variables] ----> 21 Offense: changed outside enemy power 8 -> 8
+[Info   :Configurable Company Variables] ----> 21 Offense: changed daytime enemy power 20 -> 20
+[Info   :Configurable Company Variables] ----> 8 Titan: changed enemy power 18 -> 18
+[Info   :Configurable Company Variables] ----> 8 Titan: changed outside enemy power 7 -> 7
+[Info   :Configurable Company Variables] ----> 8 Titan: changed daytime enemy power 20 -> 20
+[Info   :Configurable Company Variables] Modifying 19 enemy types
+[Info   :Configurable Company Variables] ----> Baboon hawk: changed cap 15 -> 15
+[Info   :Configurable Company Variables] ----> Blob: changed cap 2 -> 2
+[Info   :Configurable Company Variables] ----> Centipede: changed cap 4 -> 4
+[Info   :Configurable Company Variables] ----> Crawler: changed cap 4 -> 4
+[Info   :Configurable Company Variables] ----> Docile Locust Bees: changed cap 5 -> 5
+[Info   :Configurable Company Variables] ----> Manticoil: changed cap 16 -> 16
+[Info   :Configurable Company Variables] ----> Red Locust Bees: changed cap 6 -> 6
+[Info   :Configurable Company Variables] ----> Girl: changed cap 1 -> 1
+[Info   :Configurable Company Variables] ----> Flowerman: changed cap 1 -> 1
+[Info   :Configurable Company Variables] ----> ForestGiant: changed cap 3 -> 3
+[Info   :Configurable Company Variables] ----> Hoarding bug: changed cap 8 -> 8
+[Info   :Configurable Company Variables] ----> Jester: changed cap 1 -> 1
+[Info   :Configurable Company Variables] ----> Lasso: changed cap 2 -> 2
+[Info   :Configurable Company Variables] ----> MouthDog: changed cap 8 -> 8
+[Info   :Configurable Company Variables] ----> Puffer: changed cap 2 -> 2
+[Info   :Configurable Company Variables] ----> Red pill: changed cap 0 -> 0
+[Info   :Configurable Company Variables] ----> Bunker Spider: changed cap 1 -> 1
+[Info   :Configurable Company Variables] ----> Earth Leviathan: changed cap 3 -> 3
+[Info   :Configurable Company Variables] ----> Spring: changed cap 5 -> 5
+[Info   :Configurable Company Variables] -------------> StartOfRound::Awake [Client] <-------------
+[Info   :Configurable Company Variables] -------------> TimeOfDay::Awake [Client] <-------------
+[Info   :Configurable Company Variables] -------------> StartOfRound::SetMapScreenInfoToCurrentLevel [Server] <-------------
+[Info   :Configurable Company Variables] -------------> StartOfRound::SetMapScreenInfoToCurrentLevel [Server] <-------------
+[Info   :Configurable Company Variables] -------------> TimeOfDay::Start [Server] <-------------
+[Warning:    LC_API] Asking all other players for their mod list..
+[Info   :Configurable Company Variables] -------------> Terminal::TextPostProcess [Server] <-------------
+[Info   :   Console] Loading from 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile3Config'
+[Info   :   Console] Loading from disk
+[Info   :   Console] Creating menu
+[Info   :   Console] [GetFromConfig] amrv_hide_weather got False from config
+[Info   :   Console] [SetToConfig] amrv_hide_weather set False to config
+[Info   :   Console] Saving to 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile3Config'
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_spawn_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_power_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_cap_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_starting_money : 60
+[Info   :   Console] [SaveCategory] Writing amrv_deadline_days : 4
+[Info   :   Console] [SaveCategory] Writing amrv_hide_weather : False
+[Info   :   Console] [SaveCategory] Writing amrv_scrap_amount_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_scrap_price_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_death_penalty_percent : 20
+[Info   :   Console] Saving to disk
+[Info   :   Console] Loading from 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile1Config'
+[Info   :   Console] Loading from disk
+[Info   :   Console] [GetFromConfig] amrv_hide_weather got False from config
+[Info   :   Console] [SetToConfig] amrv_hide_weather set False to config
+[Info   :   Console] Saving to 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile1Config'
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_spawn_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_power_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_cap_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_starting_money : 60
+[Info   :   Console] [SaveCategory] Writing amrv_deadline_days : 4
+[Info   :   Console] [SaveCategory] Writing amrv_hide_weather : False
+[Info   :   Console] [SaveCategory] Writing amrv_scrap_amount_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_scrap_price_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_death_penalty_percent : 20
+[Info   :   Console] Saving to disk
+[Info   :   Console] Loading from 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile2Config'
+[Info   :   Console] Loading from disk
+[Info   :   Console] [GetFromConfig] amrv_hide_weather got False from config
+[Info   :   Console] [SetToConfig] amrv_hide_weather set False to config
+[Info   :   Console] Saving to 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile2Config'
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_spawn_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_power_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_cap_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_starting_money : 60
+[Info   :   Console] [SaveCategory] Writing amrv_deadline_days : 4
+[Info   :   Console] [SaveCategory] Writing amrv_hide_weather : False
+[Info   :   Console] [SaveCategory] Writing amrv_scrap_amount_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_scrap_price_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_death_penalty_percent : 20
+[Info   :   Console] Saving to disk
+[Info   :   Console] Loading from 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile3Config'
+[Info   :   Console] Loading from disk
+[Info   :   Console] [GetFromConfig] amrv_hide_weather got False from config
+[Info   :   Console] [SetToConfig] amrv_hide_weather set False to config
+[Info   :   Console] Saving to 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile3Config'
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_spawn_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_power_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_cap_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_starting_money : 60
+[Info   :   Console] [SaveCategory] Writing amrv_deadline_days : 4
+[Info   :   Console] [SaveCategory] Writing amrv_hide_weather : False
+[Info   :   Console] [SaveCategory] Writing amrv_scrap_amount_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_scrap_price_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_death_penalty_percent : 20
+[Info   :   Console] Saving to disk
+[Message:    LC_API] server pre-setup success
+[Info   :Configurable Company Variables] ------> Scrap value changed 0.4 -> 0.4
+[Info   :Configurable Company Variables] ------> Scrap amount changed 1 -> 1
+[Info   :Configurable Company Variables] -------------> RoundManager::Awake [Client] <-------------
+[Info   :Configurable Company Variables] ----> 41 Experimentation: changed enemy power 4 -> 4
+[Info   :Configurable Company Variables] ----> 41 Experimentation: changed outside enemy power 8 -> 8
+[Info   :Configurable Company Variables] ----> 41 Experimentation: changed daytime enemy power 5 -> 5
+[Info   :Configurable Company Variables] ----> 220 Assurance: changed enemy power 6 -> 6
+[Info   :Configurable Company Variables] ----> 220 Assurance: changed outside enemy power 8 -> 8
+[Info   :Configurable Company Variables] ----> 220 Assurance: changed daytime enemy power 7 -> 7
+[Info   :Configurable Company Variables] ----> 56 Vow: changed enemy power 7 -> 7
+[Info   :Configurable Company Variables] ----> 56 Vow: changed outside enemy power 6 -> 6
+[Info   :Configurable Company Variables] ----> 56 Vow: changed daytime enemy power 17 -> 17
+[Info   :Configurable Company Variables] ----> 71 Gordion: changed enemy power 0 -> 0
+[Info   :Configurable Company Variables] ----> 71 Gordion: changed outside enemy power 0 -> 0
+[Info   :Configurable Company Variables] ----> 71 Gordion: changed daytime enemy power 20 -> 20
+[Info   :Configurable Company Variables] ----> 61 March: changed enemy power 14 -> 14
+[Info   :Configurable Company Variables] ----> 61 March: changed outside enemy power 12 -> 12
+[Info   :Configurable Company Variables] ----> 61 March: changed daytime enemy power 20 -> 20
+[Info   :Configurable Company Variables] ----> 85 Rend: changed enemy power 10 -> 10
+[Info   :Configurable Company Variables] ----> 85 Rend: changed outside enemy power 6 -> 6
+[Info   :Configurable Company Variables] ----> 85 Rend: changed daytime enemy power 20 -> 20
+[Info   :Configurable Company Variables] ----> 7 Dine: changed enemy power 15 -> 15
+[Info   :Configurable Company Variables] ----> 7 Dine: changed outside enemy power 6 -> 6
+[Info   :Configurable Company Variables] ----> 7 Dine: changed daytime enemy power 20 -> 20
+[Info   :Configurable Company Variables] ----> 21 Offense: changed enemy power 12 -> 12
+[Info   :Configurable Company Variables] ----> 21 Offense: changed outside enemy power 8 -> 8
+[Info   :Configurable Company Variables] ----> 21 Offense: changed daytime enemy power 20 -> 20
+[Info   :Configurable Company Variables] ----> 8 Titan: changed enemy power 18 -> 18
+[Info   :Configurable Company Variables] ----> 8 Titan: changed outside enemy power 7 -> 7
+[Info   :Configurable Company Variables] ----> 8 Titan: changed daytime enemy power 20 -> 20
+[Info   :Configurable Company Variables] Modifying 19 enemy types
+[Info   :Configurable Company Variables] ----> Baboon hawk: changed cap 15 -> 15
+[Info   :Configurable Company Variables] ----> Blob: changed cap 2 -> 2
+[Info   :Configurable Company Variables] ----> Centipede: changed cap 4 -> 4
+[Info   :Configurable Company Variables] ----> Crawler: changed cap 4 -> 4
+[Info   :Configurable Company Variables] ----> Docile Locust Bees: changed cap 5 -> 5
+[Info   :Configurable Company Variables] ----> Manticoil: changed cap 16 -> 16
+[Info   :Configurable Company Variables] ----> Red Locust Bees: changed cap 6 -> 6
+[Info   :Configurable Company Variables] ----> Girl: changed cap 1 -> 1
+[Info   :Configurable Company Variables] ----> Flowerman: changed cap 1 -> 1
+[Info   :Configurable Company Variables] ----> ForestGiant: changed cap 3 -> 3
+[Info   :Configurable Company Variables] ----> Hoarding bug: changed cap 8 -> 8
+[Info   :Configurable Company Variables] ----> Jester: changed cap 1 -> 1
+[Info   :Configurable Company Variables] ----> Lasso: changed cap 2 -> 2
+[Info   :Configurable Company Variables] ----> MouthDog: changed cap 8 -> 8
+[Info   :Configurable Company Variables] ----> Puffer: changed cap 2 -> 2
+[Info   :Configurable Company Variables] ----> Red pill: changed cap 0 -> 0
+[Info   :Configurable Company Variables] ----> Bunker Spider: changed cap 1 -> 1
+[Info   :Configurable Company Variables] ----> Earth Leviathan: changed cap 3 -> 3
+[Info   :Configurable Company Variables] ----> Spring: changed cap 5 -> 5
+[Info   :Configurable Company Variables] -------------> StartOfRound::Awake [Client] <-------------
+[Info   :Configurable Company Variables] -------------> TimeOfDay::Awake [Client] <-------------
+[Info   :Configurable Company Variables] -------------> StartOfRound::SetMapScreenInfoToCurrentLevel [Server] <-------------
+[Info   :Configurable Company Variables] -------------> StartOfRound::SetMapScreenInfoToCurrentLevel [Server] <-------------
+[Info   :Configurable Company Variables] -------------> TimeOfDay::Start [Server] <-------------
+[Warning:    LC_API] Asking all other players for their mod list..
+[Info   :Configurable Company Variables] -------------> Terminal::TextPostProcess [Server] <-------------
+[Info   :Configurable Company Variables] -------------> Terminal::TextPostProcess [Server] <-------------
+[Info   :Configurable Company Variables] -------------> Terminal::TextPostProcess [Server] <-------------
+[Info   :Configurable Company Variables] -------------> Terminal::TextPostProcess [Server] <-------------
+[Info   :Configurable Company Variables] -------------> Terminal::TextPostProcess [Server] <-------------
+[Info   :Configurable Company Variables] -------------> Terminal::TextPostProcess [Server] <-------------
+[Info   :Configurable Company Variables] -------------> StartOfRound::StartGame [Server] <-------------
+[Info   :Configurable Company Variables] Enemy spawn multiplier: 0 -> 0
+[Info   :Configurable Company Variables] Outside daytime enemy spawn multiplier: 0 -> 0
+[Info   :Configurable Company Variables] Outside nighttime enemy spawn multiplier: 0 -> 0
+[Info   :Configurable Company Variables] Enemy spawn multiplier: 0 -> 0
+[Info   :Configurable Company Variables] Outside daytime enemy spawn multiplier: 0 -> 0
+[Info   :Configurable Company Variables] Outside nighttime enemy spawn multiplier: 0 -> 0
+[Info   :Configurable Company Variables] Enemy spawn multiplier: 0 -> 0
+[Info   :Configurable Company Variables] -------------> Terminal::TextPostProcess [Server] <-------------
+[Info   :Configurable Company Variables] -------------> StartOfRound::SetMapScreenInfoToCurrentLevel [Server] <-------------
+[Info   :Configurable Company Variables] -------------> StartOfRound::StartGame [Server] <-------------
+[Info   :Configurable Company Variables] Enemy spawn multiplier: 1 -> 1
+[Info   :Configurable Company Variables] Outside daytime enemy spawn multiplier: 0 -> 0
+[Info   :Configurable Company Variables] Outside nighttime enemy spawn multiplier: 0 -> 0
+[Info   :Configurable Company Variables] Enemy spawn multiplier: 0 -> 0
+[Info   :Configurable Company Variables] -------------> Terminal::TextPostProcess [Server] <-------------
+[Info   :Configurable Company Variables] -------------> StartOfRound::SetMapScreenInfoToCurrentLevel [Server] <-------------
+[Info   :Configurable Company Variables] -------------> StartOfRound::StartGame [Server] <-------------
+[Info   :Configurable Company Variables] Enemy spawn multiplier: 0 -> 0
+[Info   :Configurable Company Variables] Outside daytime enemy spawn multiplier: 0 -> 0
+[Info   :Configurable Company Variables] Outside nighttime enemy spawn multiplier: 0 -> 0
+[Info   :Configurable Company Variables] Enemy spawn multiplier: 0 -> 0
+[Info   :Configurable Company Variables] -------------> StartOfRound::SetMapScreenInfoToCurrentLevel [Server] <-------------
+[Info   :Configurable Company Variables] -------------> Terminal::TextPostProcess [Server] <-------------
+[Info   :Configurable Company Variables] -------------> StartOfRound::SetMapScreenInfoToCurrentLevel [Server] <-------------
+[Info   :Configurable Company Variables] -------------> StartOfRound::SetMapScreenInfoToCurrentLevel [Server] <-------------
+[Info   :Configurable Company Variables] -------------> Terminal::TextPostProcess [Server] <-------------
+[Info   :   Console] Loading from 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile3Config'
+[Info   :   Console] Loading from disk
+[Info   :   Console] Creating menu
+[Info   :   Console] [GetFromConfig] amrv_hide_weather got False from config
+[Info   :   Console] [SetToConfig] amrv_hide_weather set False to config
+[Info   :   Console] Saving to 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile3Config'
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_spawn_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_power_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_cap_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_starting_money : 20
+[Info   :   Console] [SaveCategory] Writing amrv_deadline_days : 4
+[Info   :   Console] [SaveCategory] Writing amrv_hide_weather : False
+[Info   :   Console] [SaveCategory] Writing amrv_scrap_amount_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_scrap_price_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_death_penalty_percent : 20
+[Info   :   Console] Saving to disk
+[Message:    LC_API] server pre-setup success
+[Info   :Configurable Company Variables] ------> Scrap value changed 0.4 -> 0.4
+[Info   :Configurable Company Variables] ------> Scrap amount changed 1 -> 1
+[Info   :Configurable Company Variables] -------------> RoundManager::Awake [Client] <-------------
+[Info   :Configurable Company Variables] ----> 41 Experimentation: changed enemy power 4 -> 4
+[Info   :Configurable Company Variables] ----> 41 Experimentation: changed outside enemy power 8 -> 8
+[Info   :Configurable Company Variables] ----> 41 Experimentation: changed daytime enemy power 5 -> 5
+[Info   :Configurable Company Variables] ----> 220 Assurance: changed enemy power 6 -> 6
+[Info   :Configurable Company Variables] ----> 220 Assurance: changed outside enemy power 8 -> 8
+[Info   :Configurable Company Variables] ----> 220 Assurance: changed daytime enemy power 7 -> 7
+[Info   :Configurable Company Variables] ----> 56 Vow: changed enemy power 7 -> 7
+[Info   :Configurable Company Variables] ----> 56 Vow: changed outside enemy power 6 -> 6
+[Info   :Configurable Company Variables] ----> 56 Vow: changed daytime enemy power 17 -> 17
+[Info   :Configurable Company Variables] ----> 71 Gordion: changed enemy power 0 -> 0
+[Info   :Configurable Company Variables] ----> 71 Gordion: changed outside enemy power 0 -> 0
+[Info   :Configurable Company Variables] ----> 71 Gordion: changed daytime enemy power 20 -> 20
+[Info   :Configurable Company Variables] ----> 61 March: changed enemy power 14 -> 14
+[Info   :Configurable Company Variables] ----> 61 March: changed outside enemy power 12 -> 12
+[Info   :Configurable Company Variables] ----> 61 March: changed daytime enemy power 20 -> 20
+[Info   :Configurable Company Variables] ----> 85 Rend: changed enemy power 10 -> 10
+[Info   :Configurable Company Variables] ----> 85 Rend: changed outside enemy power 6 -> 6
+[Info   :Configurable Company Variables] ----> 85 Rend: changed daytime enemy power 20 -> 20
+[Info   :Configurable Company Variables] ----> 7 Dine: changed enemy power 15 -> 15
+[Info   :Configurable Company Variables] ----> 7 Dine: changed outside enemy power 6 -> 6
+[Info   :Configurable Company Variables] ----> 7 Dine: changed daytime enemy power 20 -> 20
+[Info   :Configurable Company Variables] ----> 21 Offense: changed enemy power 12 -> 12
+[Info   :Configurable Company Variables] ----> 21 Offense: changed outside enemy power 8 -> 8
+[Info   :Configurable Company Variables] ----> 21 Offense: changed daytime enemy power 20 -> 20
+[Info   :Configurable Company Variables] ----> 8 Titan: changed enemy power 18 -> 18
+[Info   :Configurable Company Variables] ----> 8 Titan: changed outside enemy power 7 -> 7
+[Info   :Configurable Company Variables] ----> 8 Titan: changed daytime enemy power 20 -> 20
+[Info   :Configurable Company Variables] Modifying 19 enemy types
+[Info   :Configurable Company Variables] ----> Baboon hawk: changed cap 15 -> 15
+[Info   :Configurable Company Variables] ----> Blob: changed cap 2 -> 2
+[Info   :Configurable Company Variables] ----> Centipede: changed cap 4 -> 4
+[Info   :Configurable Company Variables] ----> Crawler: changed cap 4 -> 4
+[Info   :Configurable Company Variables] ----> Docile Locust Bees: changed cap 5 -> 5
+[Info   :Configurable Company Variables] ----> Manticoil: changed cap 16 -> 16
+[Info   :Configurable Company Variables] ----> Red Locust Bees: changed cap 6 -> 6
+[Info   :Configurable Company Variables] ----> Girl: changed cap 1 -> 1
+[Info   :Configurable Company Variables] ----> Flowerman: changed cap 1 -> 1
+[Info   :Configurable Company Variables] ----> ForestGiant: changed cap 3 -> 3
+[Info   :Configurable Company Variables] ----> Hoarding bug: changed cap 8 -> 8
+[Info   :Configurable Company Variables] ----> Jester: changed cap 1 -> 1
+[Info   :Configurable Company Variables] ----> Lasso: changed cap 2 -> 2
+[Info   :Configurable Company Variables] ----> MouthDog: changed cap 8 -> 8
+[Info   :Configurable Company Variables] ----> Puffer: changed cap 2 -> 2
+[Info   :Configurable Company Variables] ----> Red pill: changed cap 0 -> 0
+[Info   :Configurable Company Variables] ----> Bunker Spider: changed cap 1 -> 1
+[Info   :Configurable Company Variables] ----> Earth Leviathan: changed cap 3 -> 3
+[Info   :Configurable Company Variables] ----> Spring: changed cap 5 -> 5
+[Info   :Configurable Company Variables] -------------> StartOfRound::Awake [Client] <-------------
+[Info   :Configurable Company Variables] -------------> TimeOfDay::Awake [Client] <-------------
+[Info   :Configurable Company Variables] -------------> StartOfRound::SetMapScreenInfoToCurrentLevel [Server] <-------------
+[Info   :Configurable Company Variables] -------------> StartOfRound::SetMapScreenInfoToCurrentLevel [Server] <-------------
+[Info   :Configurable Company Variables] -------------> TimeOfDay::Start [Server] <-------------
+[Warning:    LC_API] Asking all other players for their mod list..
+[Info   :Configurable Company Variables] -------------> Terminal::TextPostProcess [Server] <-------------
+[Info   :   Console] Loading from 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile3Config'
+[Info   :   Console] Loading from disk
+[Info   :   Console] Creating menu
+[Info   :   Console] [GetFromConfig] amrv_hide_weather got False from config
+[Info   :   Console] [SetToConfig] amrv_hide_weather set False to config
+[Info   :   Console] Saving to 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile3Config'
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_spawn_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_power_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_cap_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_starting_money : 20
+[Info   :   Console] [SaveCategory] Writing amrv_deadline_days : 4
+[Info   :   Console] [SaveCategory] Writing amrv_hide_weather : False
+[Info   :   Console] [SaveCategory] Writing amrv_scrap_amount_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_scrap_price_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_death_penalty_percent : 20
+[Info   :   Console] Saving to disk
+[Info   :   Console] Loading from 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile2Config'
+[Info   :   Console] Loading from disk
+[Info   :   Console] [GetFromConfig] amrv_hide_weather got False from config
+[Info   :   Console] [SetToConfig] amrv_hide_weather set False to config
+[Info   :   Console] Saving to 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile2Config'
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_spawn_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_power_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_cap_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_starting_money : 60
+[Info   :   Console] [SaveCategory] Writing amrv_deadline_days : 4
+[Info   :   Console] [SaveCategory] Writing amrv_hide_weather : False
+[Info   :   Console] [SaveCategory] Writing amrv_scrap_amount_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_scrap_price_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_death_penalty_percent : 20
+[Info   :   Console] Saving to disk
+[Info   :   Console] Loading from 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile1Config'
+[Info   :   Console] Loading from disk
+[Info   :   Console] [GetFromConfig] amrv_hide_weather got False from config
+[Info   :   Console] [SetToConfig] amrv_hide_weather set False to config
+[Info   :   Console] Saving to 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile1Config'
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_spawn_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_power_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_cap_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_starting_money : 60
+[Info   :   Console] [SaveCategory] Writing amrv_deadline_days : 4
+[Info   :   Console] [SaveCategory] Writing amrv_hide_weather : False
+[Info   :   Console] [SaveCategory] Writing amrv_scrap_amount_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_scrap_price_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_death_penalty_percent : 20
+[Info   :   Console] Saving to disk
+[Info   :   Console] Loading from 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile2Config'
+[Info   :   Console] Loading from disk
+[Info   :   Console] [GetFromConfig] amrv_hide_weather got False from config
+[Info   :   Console] [SetToConfig] amrv_hide_weather set False to config
+[Info   :   Console] Saving to 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile2Config'
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_spawn_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_power_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_cap_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_starting_money : 60
+[Info   :   Console] [SaveCategory] Writing amrv_deadline_days : 4
+[Info   :   Console] [SaveCategory] Writing amrv_hide_weather : False
+[Info   :   Console] [SaveCategory] Writing amrv_scrap_amount_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_scrap_price_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_death_penalty_percent : 20
+[Info   :   Console] Saving to disk
+[Info   :   Console] Loading from 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile3Config'
+[Info   :   Console] Loading from disk
+[Info   :   Console] [GetFromConfig] amrv_hide_weather got False from config
+[Info   :   Console] [SetToConfig] amrv_hide_weather set False to config
+[Info   :   Console] Saving to 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile3Config'
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_spawn_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_power_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_cap_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_starting_money : 60
+[Info   :   Console] [SaveCategory] Writing amrv_deadline_days : 4
+[Info   :   Console] [SaveCategory] Writing amrv_hide_weather : False
+[Info   :   Console] [SaveCategory] Writing amrv_scrap_amount_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_scrap_price_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_death_penalty_percent : 20
+[Info   :   Console] Saving to disk
+[Message:    LC_API] server pre-setup success
+[Info   :Configurable Company Variables] ------> Scrap value changed 0.4 -> 0.4
+[Info   :Configurable Company Variables] ------> Scrap amount changed 1 -> 1
+[Info   :Configurable Company Variables] -------------> RoundManager::Awake [Client] <-------------
+[Info   :Configurable Company Variables] ----> 41 Experimentation: changed enemy power 4 -> 4
+[Info   :Configurable Company Variables] ----> 41 Experimentation: changed outside enemy power 8 -> 8
+[Info   :Configurable Company Variables] ----> 41 Experimentation: changed daytime enemy power 5 -> 5
+[Info   :Configurable Company Variables] ----> 220 Assurance: changed enemy power 6 -> 6
+[Info   :Configurable Company Variables] ----> 220 Assurance: changed outside enemy power 8 -> 8
+[Info   :Configurable Company Variables] ----> 220 Assurance: changed daytime enemy power 7 -> 7
+[Info   :Configurable Company Variables] ----> 56 Vow: changed enemy power 7 -> 7
+[Info   :Configurable Company Variables] ----> 56 Vow: changed outside enemy power 6 -> 6
+[Info   :Configurable Company Variables] ----> 56 Vow: changed daytime enemy power 17 -> 17
+[Info   :Configurable Company Variables] ----> 71 Gordion: changed enemy power 0 -> 0
+[Info   :Configurable Company Variables] ----> 71 Gordion: changed outside enemy power 0 -> 0
+[Info   :Configurable Company Variables] ----> 71 Gordion: changed daytime enemy power 20 -> 20
+[Info   :Configurable Company Variables] ----> 61 March: changed enemy power 14 -> 14
+[Info   :Configurable Company Variables] ----> 61 March: changed outside enemy power 12 -> 12
+[Info   :Configurable Company Variables] ----> 61 March: changed daytime enemy power 20 -> 20
+[Info   :Configurable Company Variables] ----> 85 Rend: changed enemy power 10 -> 10
+[Info   :Configurable Company Variables] ----> 85 Rend: changed outside enemy power 6 -> 6
+[Info   :Configurable Company Variables] ----> 85 Rend: changed daytime enemy power 20 -> 20
+[Info   :Configurable Company Variables] ----> 7 Dine: changed enemy power 15 -> 15
+[Info   :Configurable Company Variables] ----> 7 Dine: changed outside enemy power 6 -> 6
+[Info   :Configurable Company Variables] ----> 7 Dine: changed daytime enemy power 20 -> 20
+[Info   :Configurable Company Variables] ----> 21 Offense: changed enemy power 12 -> 12
+[Info   :Configurable Company Variables] ----> 21 Offense: changed outside enemy power 8 -> 8
+[Info   :Configurable Company Variables] ----> 21 Offense: changed daytime enemy power 20 -> 20
+[Info   :Configurable Company Variables] ----> 8 Titan: changed enemy power 18 -> 18
+[Info   :Configurable Company Variables] ----> 8 Titan: changed outside enemy power 7 -> 7
+[Info   :Configurable Company Variables] ----> 8 Titan: changed daytime enemy power 20 -> 20
+[Info   :Configurable Company Variables] Modifying 19 enemy types
+[Info   :Configurable Company Variables] ----> Baboon hawk: changed cap 15 -> 15
+[Info   :Configurable Company Variables] ----> Blob: changed cap 2 -> 2
+[Info   :Configurable Company Variables] ----> Centipede: changed cap 4 -> 4
+[Info   :Configurable Company Variables] ----> Crawler: changed cap 4 -> 4
+[Info   :Configurable Company Variables] ----> Docile Locust Bees: changed cap 5 -> 5
+[Info   :Configurable Company Variables] ----> Manticoil: changed cap 16 -> 16
+[Info   :Configurable Company Variables] ----> Red Locust Bees: changed cap 6 -> 6
+[Info   :Configurable Company Variables] ----> Girl: changed cap 1 -> 1
+[Info   :Configurable Company Variables] ----> Flowerman: changed cap 1 -> 1
+[Info   :Configurable Company Variables] ----> ForestGiant: changed cap 3 -> 3
+[Info   :Configurable Company Variables] ----> Hoarding bug: changed cap 8 -> 8
+[Info   :Configurable Company Variables] ----> Jester: changed cap 1 -> 1
+[Info   :Configurable Company Variables] ----> Lasso: changed cap 2 -> 2
+[Info   :Configurable Company Variables] ----> MouthDog: changed cap 8 -> 8
+[Info   :Configurable Company Variables] ----> Puffer: changed cap 2 -> 2
+[Info   :Configurable Company Variables] ----> Red pill: changed cap 0 -> 0
+[Info   :Configurable Company Variables] ----> Bunker Spider: changed cap 1 -> 1
+[Info   :Configurable Company Variables] ----> Earth Leviathan: changed cap 3 -> 3
+[Info   :Configurable Company Variables] ----> Spring: changed cap 5 -> 5
+[Info   :Configurable Company Variables] -------------> StartOfRound::Awake [Client] <-------------
+[Info   :Configurable Company Variables] -------------> TimeOfDay::Awake [Client] <-------------
+[Info   :Configurable Company Variables] -------------> StartOfRound::SetMapScreenInfoToCurrentLevel [Server] <-------------
+[Info   :Configurable Company Variables] -------------> StartOfRound::SetMapScreenInfoToCurrentLevel [Server] <-------------
+[Info   :Configurable Company Variables] -------------> TimeOfDay::Start [Server] <-------------
+[Warning:    LC_API] Asking all other players for their mod list..
+[Info   :Configurable Company Variables] -------------> StartOfRound::StartGame [Server] <-------------
+[Info   :Configurable Company Variables] -------------> Terminal::TextPostProcess [Server] <-------------
+[Info   :Configurable Company Variables] Enemy spawn multiplier: 1 -> 1
+[Info   :Configurable Company Variables] Outside daytime enemy spawn multiplier: 4 -> 4
+[Info   :Configurable Company Variables] Outside nighttime enemy spawn multiplier: 0 -> 0
+[Info   :Configurable Company Variables] Enemy spawn multiplier: 0 -> 0
+[Info   :Configurable Company Variables] -------------> Terminal::TextPostProcess [Server] <-------------
+[Info   :Configurable Company Variables] -------------> StartOfRound::SetMapScreenInfoToCurrentLevel [Server] <-------------
+[Info   :   Console] Loading from 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile3Config'
+[Info   :   Console] Loading from disk
+[Info   :   Console] Creating menu
+[Info   :   Console] [GetFromConfig] amrv_hide_weather got False from config
+[Info   :   Console] [GetFromConfig] amrv_hide_weather got False from config
+[Info   :   Console] [GetFromConfig] amrv_hide_weather got False from config
+[Info   :   Console] [GetFromConfig] amrv_hide_weather got False from config
+[Info   :   Console] [GetFromConfig] amrv_hide_weather got False from config
+[Info   :   Console] [GetFromConfig] amrv_hide_weather got False from config
+[Info   :   Console] [SetToConfig] amrv_hide_weather set False to config
+[Info   :   Console] Saving to 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile3Config'
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_spawn_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_power_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_cap_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_starting_money : 60
+[Info   :   Console] [SaveCategory] Writing amrv_deadline_days : 4
+[Info   :   Console] [SaveCategory] Writing amrv_hide_weather : False
+[Info   :   Console] [SaveCategory] Writing amrv_scrap_amount_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_scrap_price_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_death_penalty_percent : 20
+[Info   :   Console] Saving to disk
+[Message:    LC_API] server pre-setup success
+[Info   :Configurable Company Variables] ------> Scrap value changed 0.4 -> 0.4
+[Info   :Configurable Company Variables] ------> Scrap amount changed 1 -> 1
+[Info   :Configurable Company Variables] -------------> RoundManager::Awake [Client] <-------------
+[Info   :Configurable Company Variables] ----> 41 Experimentation: changed enemy power 4 -> 4
+[Info   :Configurable Company Variables] ----> 41 Experimentation: changed outside enemy power 8 -> 8
+[Info   :Configurable Company Variables] ----> 41 Experimentation: changed daytime enemy power 5 -> 5
+[Info   :Configurable Company Variables] ----> 220 Assurance: changed enemy power 6 -> 6
+[Info   :Configurable Company Variables] ----> 220 Assurance: changed outside enemy power 8 -> 8
+[Info   :Configurable Company Variables] ----> 220 Assurance: changed daytime enemy power 7 -> 7
+[Info   :Configurable Company Variables] ----> 56 Vow: changed enemy power 7 -> 7
+[Info   :Configurable Company Variables] ----> 56 Vow: changed outside enemy power 6 -> 6
+[Info   :Configurable Company Variables] ----> 56 Vow: changed daytime enemy power 17 -> 17
+[Info   :Configurable Company Variables] ----> 71 Gordion: changed enemy power 0 -> 0
+[Info   :Configurable Company Variables] ----> 71 Gordion: changed outside enemy power 0 -> 0
+[Info   :Configurable Company Variables] ----> 71 Gordion: changed daytime enemy power 20 -> 20
+[Info   :Configurable Company Variables] ----> 61 March: changed enemy power 14 -> 14
+[Info   :Configurable Company Variables] ----> 61 March: changed outside enemy power 12 -> 12
+[Info   :Configurable Company Variables] ----> 61 March: changed daytime enemy power 20 -> 20
+[Info   :Configurable Company Variables] ----> 85 Rend: changed enemy power 10 -> 10
+[Info   :Configurable Company Variables] ----> 85 Rend: changed outside enemy power 6 -> 6
+[Info   :Configurable Company Variables] ----> 85 Rend: changed daytime enemy power 20 -> 20
+[Info   :Configurable Company Variables] ----> 7 Dine: changed enemy power 15 -> 15
+[Info   :Configurable Company Variables] ----> 7 Dine: changed outside enemy power 6 -> 6
+[Info   :Configurable Company Variables] ----> 7 Dine: changed daytime enemy power 20 -> 20
+[Info   :Configurable Company Variables] ----> 21 Offense: changed enemy power 12 -> 12
+[Info   :Configurable Company Variables] ----> 21 Offense: changed outside enemy power 8 -> 8
+[Info   :Configurable Company Variables] ----> 21 Offense: changed daytime enemy power 20 -> 20
+[Info   :Configurable Company Variables] ----> 8 Titan: changed enemy power 18 -> 18
+[Info   :Configurable Company Variables] ----> 8 Titan: changed outside enemy power 7 -> 7
+[Info   :Configurable Company Variables] ----> 8 Titan: changed daytime enemy power 20 -> 20
+[Info   :Configurable Company Variables] Modifying 19 enemy types
+[Info   :Configurable Company Variables] ----> Baboon hawk: changed cap 15 -> 15
+[Info   :Configurable Company Variables] ----> Blob: changed cap 2 -> 2
+[Info   :Configurable Company Variables] ----> Centipede: changed cap 4 -> 4
+[Info   :Configurable Company Variables] ----> Crawler: changed cap 4 -> 4
+[Info   :Configurable Company Variables] ----> Docile Locust Bees: changed cap 5 -> 5
+[Info   :Configurable Company Variables] ----> Manticoil: changed cap 16 -> 16
+[Info   :Configurable Company Variables] ----> Red Locust Bees: changed cap 6 -> 6
+[Info   :Configurable Company Variables] ----> Girl: changed cap 1 -> 1
+[Info   :Configurable Company Variables] ----> Flowerman: changed cap 1 -> 1
+[Info   :Configurable Company Variables] ----> ForestGiant: changed cap 3 -> 3
+[Info   :Configurable Company Variables] ----> Hoarding bug: changed cap 8 -> 8
+[Info   :Configurable Company Variables] ----> Jester: changed cap 1 -> 1
+[Info   :Configurable Company Variables] ----> Lasso: changed cap 2 -> 2
+[Info   :Configurable Company Variables] ----> MouthDog: changed cap 8 -> 8
+[Info   :Configurable Company Variables] ----> Puffer: changed cap 2 -> 2
+[Info   :Configurable Company Variables] ----> Red pill: changed cap 0 -> 0
+[Info   :Configurable Company Variables] ----> Bunker Spider: changed cap 1 -> 1
+[Info   :Configurable Company Variables] ----> Earth Leviathan: changed cap 3 -> 3
+[Info   :Configurable Company Variables] ----> Spring: changed cap 5 -> 5
+[Info   :Configurable Company Variables] -------------> StartOfRound::Awake [Client] <-------------
+[Info   :Configurable Company Variables] -------------> TimeOfDay::Awake [Client] <-------------
+[Info   :Configurable Company Variables] -------------> StartOfRound::SetMapScreenInfoToCurrentLevel [Server] <-------------
+[Info   :Configurable Company Variables] -------------> StartOfRound::SetMapScreenInfoToCurrentLevel [Server] <-------------
+[Info   :Configurable Company Variables] -------------> TimeOfDay::Start [Server] <-------------
+[Warning:    LC_API] Asking all other players for their mod list..
+[Info   :Configurable Company Variables] -------------> Terminal::TextPostProcess [Server] <-------------
+[Info   :Configurable Company Variables] -------------> Terminal::TextPostProcess [Server] <-------------
+[Info   :Configurable Company Variables] -------------> Terminal::TextPostProcess [Server] <-------------
+[Info   :Configurable Company Variables] -------------> Terminal::TextPostProcess [Server] <-------------
+[Info   :Configurable Company Variables] -------------> Terminal::TextPostProcess [Server] <-------------
+[Info   :Configurable Company Variables] -------------> Terminal::TextPostProcess [Server] <-------------
+[Info   :Configurable Company Variables] -------------> Terminal::TextPostProcess [Server] <-------------
+[Info   :Configurable Company Variables] -------------> Terminal::TextPostProcess [Server] <-------------
+[Info   :Configurable Company Variables] -------------> Terminal::TextPostProcess [Server] <-------------
+[Info   :Configurable Company Variables] -------------> Terminal::TextPostProcess [Server] <-------------
+[Info   :   Console] Loading from 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile3Config'
+[Info   :   Console] Loading from disk
+[Info   :   Console] Creating menu
+[Info   :   Console] [GetFromConfig] amrv_hide_weather got False from config
+[Info   :   Console] [SetToConfig] amrv_hide_weather set False to config
+[Info   :   Console] Saving to 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile3Config'
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_spawn_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_power_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_cap_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_starting_money : 60
+[Info   :   Console] [SaveCategory] Writing amrv_deadline_days : 4
+[Info   :   Console] [SaveCategory] Writing amrv_hide_weather : False
+[Info   :   Console] [SaveCategory] Writing amrv_scrap_amount_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_scrap_price_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_death_penalty_percent : 20
+[Info   :   Console] Saving to disk
+[Info   :   Console] Loading from 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile3Config'
+[Info   :   Console] Loading from disk
+[Info   :   Console] [GetFromConfig] amrv_hide_weather got False from config
+[Info   :   Console] [SetToConfig] amrv_hide_weather set False to config
+[Info   :   Console] Saving to 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile3Config'
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_spawn_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_power_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_cap_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_starting_money : 60
+[Info   :   Console] [SaveCategory] Writing amrv_deadline_days : 4
+[Info   :   Console] [SaveCategory] Writing amrv_hide_weather : False
+[Info   :   Console] [SaveCategory] Writing amrv_scrap_amount_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_scrap_price_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_death_penalty_percent : 20
+[Info   :   Console] Saving to disk
+[Info   :   Console] Loading from 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile3Config'
+[Info   :   Console] Loading from disk
+[Info   :   Console] [GetFromConfig] amrv_hide_weather got False from config
+[Info   :   Console] Loading from 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile3Config'
+[Info   :   Console] Loading from disk
+[Info   :   Console] [GetFromConfig] amrv_hide_weather got False from config
+[Info   :   Console] Loading from 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile3Config'
+[Info   :   Console] Loading from disk
+[Info   :   Console] [GetFromConfig] amrv_hide_weather got False from config
+[Info   :   Console] [SetToConfig] amrv_hide_weather set False to config
+[Info   :   Console] Saving to 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile3Config'
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_spawn_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_power_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_cap_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_starting_money : 60
+[Info   :   Console] [SaveCategory] Writing amrv_deadline_days : 4
+[Info   :   Console] [SaveCategory] Writing amrv_hide_weather : False
+[Info   :   Console] [SaveCategory] Writing amrv_scrap_amount_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_scrap_price_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_death_penalty_percent : 20
+[Info   :   Console] Saving to disk
+[Message:    LC_API] server pre-setup success
+[Info   :Configurable Company Variables] ------> Scrap value changed 0.4 -> 0.4
+[Info   :Configurable Company Variables] ------> Scrap amount changed 1 -> 1
+[Info   :Configurable Company Variables] -------------> RoundManager::Awake [Client] <-------------
+[Info   :Configurable Company Variables] ----> 41 Experimentation: changed enemy power 4 -> 4
+[Info   :Configurable Company Variables] ----> 41 Experimentation: changed outside enemy power 8 -> 8
+[Info   :Configurable Company Variables] ----> 41 Experimentation: changed daytime enemy power 5 -> 5
+[Info   :Configurable Company Variables] ----> 220 Assurance: changed enemy power 6 -> 6
+[Info   :Configurable Company Variables] ----> 220 Assurance: changed outside enemy power 8 -> 8
+[Info   :Configurable Company Variables] ----> 220 Assurance: changed daytime enemy power 7 -> 7
+[Info   :Configurable Company Variables] ----> 56 Vow: changed enemy power 7 -> 7
+[Info   :Configurable Company Variables] ----> 56 Vow: changed outside enemy power 6 -> 6
+[Info   :Configurable Company Variables] ----> 56 Vow: changed daytime enemy power 17 -> 17
+[Info   :Configurable Company Variables] ----> 71 Gordion: changed enemy power 0 -> 0
+[Info   :Configurable Company Variables] ----> 71 Gordion: changed outside enemy power 0 -> 0
+[Info   :Configurable Company Variables] ----> 71 Gordion: changed daytime enemy power 20 -> 20
+[Info   :Configurable Company Variables] ----> 61 March: changed enemy power 14 -> 14
+[Info   :Configurable Company Variables] ----> 61 March: changed outside enemy power 12 -> 12
+[Info   :Configurable Company Variables] ----> 61 March: changed daytime enemy power 20 -> 20
+[Info   :Configurable Company Variables] ----> 85 Rend: changed enemy power 10 -> 10
+[Info   :Configurable Company Variables] ----> 85 Rend: changed outside enemy power 6 -> 6
+[Info   :Configurable Company Variables] ----> 85 Rend: changed daytime enemy power 20 -> 20
+[Info   :Configurable Company Variables] ----> 7 Dine: changed enemy power 15 -> 15
+[Info   :Configurable Company Variables] ----> 7 Dine: changed outside enemy power 6 -> 6
+[Info   :Configurable Company Variables] ----> 7 Dine: changed daytime enemy power 20 -> 20
+[Info   :Configurable Company Variables] ----> 21 Offense: changed enemy power 12 -> 12
+[Info   :Configurable Company Variables] ----> 21 Offense: changed outside enemy power 8 -> 8
+[Info   :Configurable Company Variables] ----> 21 Offense: changed daytime enemy power 20 -> 20
+[Info   :Configurable Company Variables] ----> 8 Titan: changed enemy power 18 -> 18
+[Info   :Configurable Company Variables] ----> 8 Titan: changed outside enemy power 7 -> 7
+[Info   :Configurable Company Variables] ----> 8 Titan: changed daytime enemy power 20 -> 20
+[Info   :Configurable Company Variables] Modifying 19 enemy types
+[Info   :Configurable Company Variables] ----> Baboon hawk: changed cap 15 -> 15
+[Info   :Configurable Company Variables] ----> Blob: changed cap 2 -> 2
+[Info   :Configurable Company Variables] ----> Centipede: changed cap 4 -> 4
+[Info   :Configurable Company Variables] ----> Crawler: changed cap 4 -> 4
+[Info   :Configurable Company Variables] ----> Docile Locust Bees: changed cap 5 -> 5
+[Info   :Configurable Company Variables] ----> Manticoil: changed cap 16 -> 16
+[Info   :Configurable Company Variables] ----> Red Locust Bees: changed cap 6 -> 6
+[Info   :Configurable Company Variables] ----> Girl: changed cap 1 -> 1
+[Info   :Configurable Company Variables] ----> Flowerman: changed cap 1 -> 1
+[Info   :Configurable Company Variables] ----> ForestGiant: changed cap 3 -> 3
+[Info   :Configurable Company Variables] ----> Hoarding bug: changed cap 8 -> 8
+[Info   :Configurable Company Variables] ----> Jester: changed cap 1 -> 1
+[Info   :Configurable Company Variables] ----> Lasso: changed cap 2 -> 2
+[Info   :Configurable Company Variables] ----> MouthDog: changed cap 8 -> 8
+[Info   :Configurable Company Variables] ----> Puffer: changed cap 2 -> 2
+[Info   :Configurable Company Variables] ----> Red pill: changed cap 0 -> 0
+[Info   :Configurable Company Variables] ----> Bunker Spider: changed cap 1 -> 1
+[Info   :Configurable Company Variables] ----> Earth Leviathan: changed cap 3 -> 3
+[Info   :Configurable Company Variables] ----> Spring: changed cap 5 -> 5
+[Info   :Configurable Company Variables] -------------> StartOfRound::Awake [Client] <-------------
+[Info   :Configurable Company Variables] -------------> TimeOfDay::Awake [Client] <-------------
+[Info   :Configurable Company Variables] -------------> StartOfRound::SetMapScreenInfoToCurrentLevel [Server] <-------------
+[Info   :Configurable Company Variables] -------------> StartOfRound::SetMapScreenInfoToCurrentLevel [Server] <-------------
+[Info   :Configurable Company Variables] -------------> TimeOfDay::Start [Server] <-------------
+[Warning:    LC_API] Asking all other players for their mod list..
+[Info   :Configurable Company Variables] -------------> Terminal::TextPostProcess [Server] <-------------
+[Info   :   Console] Loading from 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile3Config'
+[Info   :   Console] Loading from disk
+[Info   :   Console] Creating menu
+[Info   :   Console] [GetFromConfig] amrv_hide_weather got False from config
+[Info   :   Console] Loading from 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile3Config'
+[Info   :   Console] Loading from disk
+[Info   :   Console] [GetFromConfig] amrv_hide_weather got False from config
+[Info   :   Console] [SetToConfig] amrv_hide_weather set False to config
+[Info   :   Console] Saving to 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile3Config'
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_spawn_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_power_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_cap_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_starting_money : 60
+[Info   :   Console] [SaveCategory] Writing amrv_deadline_days : 4
+[Info   :   Console] [SaveCategory] Writing amrv_hide_weather : False
+[Info   :   Console] [SaveCategory] Writing amrv_scrap_amount_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_scrap_price_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_death_penalty_percent : 100
+[Info   :   Console] Saving to disk
+[Message:    LC_API] server pre-setup success
+[Info   :Configurable Company Variables] ------> Scrap value changed 0.4 -> 0.4
+[Info   :Configurable Company Variables] ------> Scrap amount changed 1 -> 1
+[Info   :Configurable Company Variables] -------------> RoundManager::Awake [Client] <-------------
+[Info   :Configurable Company Variables] ----> 41 Experimentation: changed enemy power 4 -> 4
+[Info   :Configurable Company Variables] ----> 41 Experimentation: changed outside enemy power 8 -> 8
+[Info   :Configurable Company Variables] ----> 41 Experimentation: changed daytime enemy power 5 -> 5
+[Info   :Configurable Company Variables] ----> 220 Assurance: changed enemy power 6 -> 6
+[Info   :Configurable Company Variables] ----> 220 Assurance: changed outside enemy power 8 -> 8
+[Info   :Configurable Company Variables] ----> 220 Assurance: changed daytime enemy power 7 -> 7
+[Info   :Configurable Company Variables] ----> 56 Vow: changed enemy power 7 -> 7
+[Info   :Configurable Company Variables] ----> 56 Vow: changed outside enemy power 6 -> 6
+[Info   :Configurable Company Variables] ----> 56 Vow: changed daytime enemy power 17 -> 17
+[Info   :Configurable Company Variables] ----> 71 Gordion: changed enemy power 0 -> 0
+[Info   :Configurable Company Variables] ----> 71 Gordion: changed outside enemy power 0 -> 0
+[Info   :Configurable Company Variables] ----> 71 Gordion: changed daytime enemy power 20 -> 20
+[Info   :Configurable Company Variables] ----> 61 March: changed enemy power 14 -> 14
+[Info   :Configurable Company Variables] ----> 61 March: changed outside enemy power 12 -> 12
+[Info   :Configurable Company Variables] ----> 61 March: changed daytime enemy power 20 -> 20
+[Info   :Configurable Company Variables] ----> 85 Rend: changed enemy power 10 -> 10
+[Info   :Configurable Company Variables] ----> 85 Rend: changed outside enemy power 6 -> 6
+[Info   :Configurable Company Variables] ----> 85 Rend: changed daytime enemy power 20 -> 20
+[Info   :Configurable Company Variables] ----> 7 Dine: changed enemy power 15 -> 15
+[Info   :Configurable Company Variables] ----> 7 Dine: changed outside enemy power 6 -> 6
+[Info   :Configurable Company Variables] ----> 7 Dine: changed daytime enemy power 20 -> 20
+[Info   :Configurable Company Variables] ----> 21 Offense: changed enemy power 12 -> 12
+[Info   :Configurable Company Variables] ----> 21 Offense: changed outside enemy power 8 -> 8
+[Info   :Configurable Company Variables] ----> 21 Offense: changed daytime enemy power 20 -> 20
+[Info   :Configurable Company Variables] ----> 8 Titan: changed enemy power 18 -> 18
+[Info   :Configurable Company Variables] ----> 8 Titan: changed outside enemy power 7 -> 7
+[Info   :Configurable Company Variables] ----> 8 Titan: changed daytime enemy power 20 -> 20
+[Info   :Configurable Company Variables] Modifying 19 enemy types
+[Info   :Configurable Company Variables] ----> Baboon hawk: changed cap 15 -> 15
+[Info   :Configurable Company Variables] ----> Blob: changed cap 2 -> 2
+[Info   :Configurable Company Variables] ----> Centipede: changed cap 4 -> 4
+[Info   :Configurable Company Variables] ----> Crawler: changed cap 4 -> 4
+[Info   :Configurable Company Variables] ----> Docile Locust Bees: changed cap 5 -> 5
+[Info   :Configurable Company Variables] ----> Manticoil: changed cap 16 -> 16
+[Info   :Configurable Company Variables] ----> Red Locust Bees: changed cap 6 -> 6
+[Info   :Configurable Company Variables] ----> Girl: changed cap 1 -> 1
+[Info   :Configurable Company Variables] ----> Flowerman: changed cap 1 -> 1
+[Info   :Configurable Company Variables] ----> ForestGiant: changed cap 3 -> 3
+[Info   :Configurable Company Variables] ----> Hoarding bug: changed cap 8 -> 8
+[Info   :Configurable Company Variables] ----> Jester: changed cap 1 -> 1
+[Info   :Configurable Company Variables] ----> Lasso: changed cap 2 -> 2
+[Info   :Configurable Company Variables] ----> MouthDog: changed cap 8 -> 8
+[Info   :Configurable Company Variables] ----> Puffer: changed cap 2 -> 2
+[Info   :Configurable Company Variables] ----> Red pill: changed cap 0 -> 0
+[Info   :Configurable Company Variables] ----> Bunker Spider: changed cap 1 -> 1
+[Info   :Configurable Company Variables] ----> Earth Leviathan: changed cap 3 -> 3
+[Info   :Configurable Company Variables] ----> Spring: changed cap 5 -> 5
+[Info   :Configurable Company Variables] -------------> StartOfRound::Awake [Client] <-------------
+[Info   :Configurable Company Variables] -------------> TimeOfDay::Awake [Client] <-------------
+[Info   :Configurable Company Variables] -------------> StartOfRound::SetMapScreenInfoToCurrentLevel [Server] <-------------
+[Info   :Configurable Company Variables] -------------> StartOfRound::SetMapScreenInfoToCurrentLevel [Server] <-------------
+[Info   :Configurable Company Variables] -------------> TimeOfDay::Start [Server] <-------------
+[Warning:    LC_API] Asking all other players for their mod list..
+[Info   :Configurable Company Variables] -------------> Terminal::TextPostProcess [Server] <-------------
+[Info   :Configurable Company Variables] -------------> StartOfRound::StartGame [Server] <-------------
+[Info   :Configurable Company Variables] Enemy spawn multiplier: 1 -> 1
+[Info   :Configurable Company Variables] Outside daytime enemy spawn multiplier: 5 -> 5
+[Info   :Configurable Company Variables] Outside nighttime enemy spawn multiplier: 0 -> 0
+[Info   :Configurable Company Variables] Enemy spawn multiplier: 1 -> 1
+[Info   :Configurable Company Variables] -------------> Terminal::TextPostProcess [Server] <-------------
+[Info   :Configurable Company Variables] -------------> StartOfRound::SetMapScreenInfoToCurrentLevel [Server] <-------------
+[Info   :   Console] Loading from 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile3Config'
+[Info   :   Console] Loading from disk
+[Info   :   Console] Creating menu
+[Info   :   Console] [GetFromConfig] amrv_hide_weather got False from config
+[Info   :   Console] [SetToConfig] amrv_hide_weather set False to config
+[Info   :   Console] Saving to 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile3Config'
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_spawn_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_power_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_cap_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_starting_money : 60
+[Info   :   Console] [SaveCategory] Writing amrv_deadline_days : 4
+[Info   :   Console] [SaveCategory] Writing amrv_hide_weather : False
+[Info   :   Console] [SaveCategory] Writing amrv_scrap_amount_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_scrap_price_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_death_penalty_percent : 100
+[Info   :   Console] Saving to disk
+[Info   :   Console] Loading from 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile2Config'
+[Info   :   Console] Loading from disk
+[Info   :   Console] [GetFromConfig] amrv_hide_weather got False from config
+[Info   :   Console] [SetToConfig] amrv_hide_weather set False to config
+[Info   :   Console] Saving to 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile2Config'
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_spawn_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_power_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_cap_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_starting_money : 60
+[Info   :   Console] [SaveCategory] Writing amrv_deadline_days : 4
+[Info   :   Console] [SaveCategory] Writing amrv_hide_weather : False
+[Info   :   Console] [SaveCategory] Writing amrv_scrap_amount_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_scrap_price_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_death_penalty_percent : 20
+[Info   :   Console] Saving to disk
+[Info   :   Console] Loading from 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile1Config'
+[Info   :   Console] Loading from disk
+[Info   :   Console] [GetFromConfig] amrv_hide_weather got False from config
+[Info   :   Console] [SetToConfig] amrv_hide_weather set False to config
+[Info   :   Console] Saving to 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile1Config'
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_spawn_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_power_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_cap_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_starting_money : 60
+[Info   :   Console] [SaveCategory] Writing amrv_deadline_days : 4
+[Info   :   Console] [SaveCategory] Writing amrv_hide_weather : False
+[Info   :   Console] [SaveCategory] Writing amrv_scrap_amount_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_scrap_price_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_death_penalty_percent : 20
+[Info   :   Console] Saving to disk
+[Info   :   Console] Loading from 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile2Config'
+[Info   :   Console] Loading from disk
+[Info   :   Console] [GetFromConfig] amrv_hide_weather got False from config
+[Info   :   Console] [SetToConfig] amrv_hide_weather set False to config
+[Info   :   Console] Saving to 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile2Config'
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_spawn_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_power_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_cap_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_starting_money : 60
+[Info   :   Console] [SaveCategory] Writing amrv_deadline_days : 4
+[Info   :   Console] [SaveCategory] Writing amrv_hide_weather : False
+[Info   :   Console] [SaveCategory] Writing amrv_scrap_amount_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_scrap_price_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_death_penalty_percent : 20
+[Info   :   Console] Saving to disk
+[Info   :   Console] Loading from 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile3Config'
+[Info   :   Console] Loading from disk
+[Info   :   Console] [GetFromConfig] amrv_hide_weather got False from config
+[Info   :   Console] Loading from 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile3Config'
+[Info   :   Console] Loading from disk
+[Info   :   Console] [GetFromConfig] amrv_hide_weather got False from config
+[Info   :   Console] [GetFromConfig] amrv_hide_weather got False from config
+[Info   :   Console] [GetFromConfig] amrv_hide_weather got False from config
+[Info   :   Console] Loading from 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile3Config'
+[Info   :   Console] Loading from disk
+[Info   :   Console] [GetFromConfig] amrv_hide_weather got False from config
+[Info   :   Console] Loading from 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile3Config'
+[Info   :   Console] Loading from disk
+[Info   :   Console] [GetFromConfig] amrv_hide_weather got False from config
+[Info   :   Console] [SetToConfig] amrv_hide_weather set False to config
+[Info   :   Console] Saving to 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile3Config'
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_spawn_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_power_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_cap_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_starting_money : 60
+[Info   :   Console] [SaveCategory] Writing amrv_deadline_days : 4
+[Info   :   Console] [SaveCategory] Writing amrv_hide_weather : False
+[Info   :   Console] [SaveCategory] Writing amrv_scrap_amount_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_scrap_price_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_death_penalty_percent : 100
+[Info   :   Console] Saving to disk
+[Info   :   Console] Loading from 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile2Config'
+[Info   :   Console] Loading from disk
+[Info   :   Console] [GetFromConfig] amrv_hide_weather got False from config
+[Info   :   Console] [SetToConfig] amrv_hide_weather set False to config
+[Info   :   Console] Saving to 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile2Config'
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_spawn_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_power_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_cap_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_starting_money : 60
+[Info   :   Console] [SaveCategory] Writing amrv_deadline_days : 4
+[Info   :   Console] [SaveCategory] Writing amrv_hide_weather : False
+[Info   :   Console] [SaveCategory] Writing amrv_scrap_amount_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_scrap_price_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_death_penalty_percent : 20
+[Info   :   Console] Saving to disk
+[Info   :   Console] Loading from 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile1Config'
+[Info   :   Console] Loading from disk
+[Info   :   Console] [GetFromConfig] amrv_hide_weather got False from config
+[Info   :   Console] [SetToConfig] amrv_hide_weather set False to config
+[Info   :   Console] Saving to 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile1Config'
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_spawn_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_power_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_cap_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_starting_money : 60
+[Info   :   Console] [SaveCategory] Writing amrv_deadline_days : 4
+[Info   :   Console] [SaveCategory] Writing amrv_hide_weather : False
+[Info   :   Console] [SaveCategory] Writing amrv_scrap_amount_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_scrap_price_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_death_penalty_percent : 20
+[Info   :   Console] Saving to disk
+[Info   :   Console] Loading from 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile3Config'
+[Info   :   Console] Loading from disk
+[Info   :   Console] [GetFromConfig] amrv_hide_weather got False from config
+[Info   :   Console] [GetFromConfig] amrv_hide_weather got False from config
+[Info   :   Console] [SetToConfig] amrv_hide_weather set False to config
+[Info   :   Console] Saving to 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile3Config'
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_spawn_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_power_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_cap_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_starting_money : 60
+[Info   :   Console] [SaveCategory] Writing amrv_deadline_days : 4
+[Info   :   Console] [SaveCategory] Writing amrv_hide_weather : False
+[Info   :   Console] [SaveCategory] Writing amrv_scrap_amount_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_scrap_price_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_death_penalty_percent : 20
+[Info   :   Console] Saving to disk
+[Info   :   Console] Loading from 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile2Config'
+[Info   :   Console] Loading from disk
+[Info   :   Console] [GetFromConfig] amrv_hide_weather got False from config
+[Info   :   Console] [SetToConfig] amrv_hide_weather set False to config
+[Info   :   Console] Saving to 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile2Config'
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_spawn_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_power_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_cap_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_starting_money : 60
+[Info   :   Console] [SaveCategory] Writing amrv_deadline_days : 4
+[Info   :   Console] [SaveCategory] Writing amrv_hide_weather : False
+[Info   :   Console] [SaveCategory] Writing amrv_scrap_amount_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_scrap_price_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_death_penalty_percent : 20
+[Info   :   Console] Saving to disk
+[Info   :   Console] Loading from 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile3Config'
+[Info   :   Console] Loading from disk
+[Info   :   Console] [GetFromConfig] amrv_hide_weather got False from config
+[Info   :   Console] [SetToConfig] amrv_hide_weather set False to config
+[Info   :   Console] Saving to 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile3Config'
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_spawn_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_power_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_cap_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_starting_money : 60
+[Info   :   Console] [SaveCategory] Writing amrv_deadline_days : 4
+[Info   :   Console] [SaveCategory] Writing amrv_hide_weather : False
+[Info   :   Console] [SaveCategory] Writing amrv_scrap_amount_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_scrap_price_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_death_penalty_percent : 20
+[Info   :   Console] Saving to disk
+[Info   :   Console] Loading from 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile2Config'
+[Info   :   Console] Loading from disk
+[Info   :   Console] [GetFromConfig] amrv_hide_weather got False from config
+[Info   :   Console] [SetToConfig] amrv_hide_weather set False to config
+[Info   :   Console] Saving to 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile2Config'
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_spawn_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_power_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_enemy_cap_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_starting_money : 60
+[Info   :   Console] [SaveCategory] Writing amrv_deadline_days : 4
+[Info   :   Console] [SaveCategory] Writing amrv_hide_weather : False
+[Info   :   Console] [SaveCategory] Writing amrv_scrap_amount_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_scrap_price_multiplier : 1
+[Info   :   Console] [SaveCategory] Writing amrv_death_penalty_percent : 20
+[Info   :   Console] Saving to disk
+[Info   :   Console] Loading from 'C:/Users/bther/AppData/LocalLow/ZeekerssRBLX/Lethal Company\LCSaveFile1Config'
+[Info   :   Console] Loading from disk
+[Info   :   Console] [GetFromConfig] amrv_hide_weather got False from config
